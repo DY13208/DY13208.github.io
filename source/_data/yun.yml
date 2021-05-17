@@ -3,5 +3,20 @@ avatar:
   rounded: true
   opacity: 1
 
+
+banner:
+  enable: true
+  title: 余光的小站
+  src: /js/ui/banner.js
+  border: true
+  cloud:
+    enable: true
+    color: "white"
+  go_down:
+    enable: true
+    icon: icon-arrow-down-s-line
+
+
+
   colors:
   primary: "#000000"
