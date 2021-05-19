@@ -189,21 +189,20 @@ body::before {
   width: 100%;
   height: 100%;
   z-index: -1;
-  background-image: url("https://cdn.jsdelivr.net/gh/DY13208/DY13208.github.io/images/rny/20210519112424.JPG");
+  background-image: url("https://cdn.jsdelivr.net/gh/YunYouJun/cdn/img/bg/stars-timing-0-blur-30px.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   animation-name: bgFadeIn;
   animation-duration: 2s;
-  opacity: 0.8;
-  filter: blur(30px);
+  opacity: 1;
 }
 @-moz-keyframes bgFadeIn {
   from {
     opacity: 0;
   }
   to {
-    opacity: 0.8;
+    opacity: 1;
   }
 }
 @-webkit-keyframes bgFadeIn {
@@ -211,7 +210,7 @@ body::before {
     opacity: 0;
   }
   to {
-    opacity: 0.8;
+    opacity: 1;
   }
 }
 @-o-keyframes bgFadeIn {
@@ -219,7 +218,7 @@ body::before {
     opacity: 0;
   }
   to {
-    opacity: 0.8;
+    opacity: 1;
   }
 }
 @keyframes bgFadeIn {
@@ -227,7 +226,7 @@ body::before {
     opacity: 0;
   }
   to {
-    opacity: 0.8;
+    opacity: 1;
   }
 }
 :root {
@@ -1996,7 +1995,7 @@ body::before {
     color: var(--hty-text-color);
   }
   :root:not([data-user-color-scheme]) body::before {
-    background-image: url("https://cdn.jsdelivr.net/gh/DY13208/DY13208.github.io/images/rny/20210519112439.jpg");
+    background-image: url("https://cdn.jsdelivr.net/gh/YunYouJun/cdn/img/bg/galaxy.jpg");
   }
   :root:not([data-user-color-scheme]) .char {
     background-color: rgba(0,0,0,0.5);
@@ -2072,7 +2071,7 @@ body::before {
   color: var(--hty-text-color);
 }
 [data-user-color-scheme='dark'] body::before {
-  background-image: url("https://cdn.jsdelivr.net/gh/DY13208/DY13208.github.io/images/rny/20210519112439.jpg");
+  background-image: url("https://cdn.jsdelivr.net/gh/YunYouJun/cdn/img/bg/galaxy.jpg");
 }
 [data-user-color-scheme='dark'] .char {
   background-color: rgba(0,0,0,0.5);
